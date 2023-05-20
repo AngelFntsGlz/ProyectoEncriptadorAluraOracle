@@ -1,0 +1,183 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter";
+}
+
+body {
+  background: #f3f5fc;
+}
+
+header {
+  width: 100%;
+  height: 60px;
+}
+
+head img {
+  margin-left: 95px;
+  padding: 5px;
+}
+
+main {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.seccion_1 {
+  width: 60%;
+  height: 600px;
+  margin-left: 40px;
+  margin-top: 30px;
+}
+
+.textarea {
+  background: #f3f5fc;
+  border: none;
+  text-transform: lowercase;
+  color: #0a3871;
+  width: 100%;
+  font-weight: 400;
+  font-size: 32px;
+}
+::placeholder {
+  color: #0a3871;
+}
+.textarea:focus {
+  outline: none;
+}
+
+.cont-alert {
+  display: flex;
+  align-items: center;
+}
+
+.cont-alert img {
+  width: 16px;
+  height: 12px;
+}
+
+.msg-alert {
+  color: #495057;
+  opacity: 0.8;
+  font-size: 12px;
+  margin-left: 5px;
+}
+
+.cont-btn {
+  width: 100%;
+  height: 20%;
+  text-align: center;
+  margin-top: 15px;
+}
+
+.btn-encriptar {
+  background-color: #0a3871;
+  border: 1px solid #0a3871;
+  border-radius: 24px;
+  color: #ffffff;
+  cursor: pointer;
+  height: 67px;
+  width: 250px;
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+}
+
+.btn-desencriptar {
+  border: 1px solid #0a3871;
+  border-radius: 24px;
+  color: #0a3871;
+  cursor: pointer;
+  height: 67px;
+  width: 250px;
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+  margin-left: 30px;
+}
+
+.seccion_2 {
+  width: 30%;
+  height: 600px;
+  background: #ffffff;
+  box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+  border-radius: 32px;
+  margin-right: 40px;
+}
+
+.cont-resultado{
+  display: none;
+}
+
+.txt-result {
+  border: none;
+  text-transform: lowercase;
+  color: #0a3871;
+  width: 100%;
+  font-weight: 400;
+  font-size: 32px;
+}
+.txt-result:focus {
+  outline: none;
+}
+
+.cont-munieco {
+  width: 100%;
+  padding-top: 20px;
+  text-align: center;
+}
+
+.cont-title {
+  width: 100%;
+  height: 20%;
+  margin-top: 50px;
+  text-align: center;
+}
+
+.cont-title h3 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 120%;
+  color: #343a40;
+}
+
+.cont-title p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #495057;
+}
+
+.cont-copiar {
+  width: 100%;
+  height: 20%;
+  text-align: center;
+}
+
+.btn-copiar {
+  border: 1px solid #0a3871;
+  border-radius: 24px;
+  color: #0a3871;
+  cursor: pointer;
+  height: 67px;
+  width: 250px;
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+}
+
+.ocultar {
+  display: none;
+}
+
+.aparecer{
+  display: block;
+  width: 100%;
+  height: 80%;
+  margin-top: 10px;
+  text-align: center;
+}

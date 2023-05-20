@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400&display=swap" rel="stylesheet">
+    <title>Challenge Encriptador</title>
+</head>
+<body>
+    <header>
+        <img src="img/Logo.svg" alt="Logo">
+    </header>
+    <main>
+        <section class="seccion_1">
+            <textarea class="textarea" cols="30" rows="10" placeholder="Ingrese su mensaje"></textarea>
+            <div class="cont-alert">
+                <img src="img/alerta.svg" class="icon-alert">
+                <p class="msg-alert">Solo letas minúsculas y sin acentos</p>
+            </div>
+            <div class="cont-btn">
+                <input class="btn-encriptar" type="button" value="Encriptar">
+                <input class="btn-desencriptar" type="button" value="Desencriptar">
+            </div>
+        </section>
+        <section class="seccion_2">
+            <div class="cont-resultado">
+                <p class="txt-result"></p>
+            </div>
+            <div class="cont-munieco">
+                <img src="img/Muñeco.svg" alt="">
+            </div>
+            <div class="cont-title">
+                <h3>No se encontró mensaje</h3>
+                <p>Ingrse mensaje a encriptar o desencriptar</p>
+            </div>
+            <div class="cont-copiar">
+                <input class="btn-copiar" type="button" value="Copiar">
+            </div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
